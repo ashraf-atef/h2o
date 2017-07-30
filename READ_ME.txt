@@ -19,3 +19,14 @@ heroku pg:psql postgresql-symmetrical-19446 --app h2ooo
 **************************************************** Accounts *************************************************
 fastcompany2010@gmail.com
 F123456789
+
+
+
+
+**************************************************** PHP MyAdmin *************************************************
+Can't import database through phpmyadmin file size too large
+https://stackoverflow.com/questions/9593128/cant-import-database-through-phpmyadmin-file-size-too-large
+
+
+Maximum execution time in phpMyadmin
+https://stackoverflow.com/questions/1263680/maximum-execution-time-in-phpmyadmin

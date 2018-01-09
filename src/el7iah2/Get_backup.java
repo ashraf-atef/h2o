@@ -127,8 +127,16 @@ public abstract class Get_backup extends Thread{
     {
        try {
         String start_headers="";
-        start_headers = "SET SQL_MODE = \"NO_AUTO_VALUE_ON_ZERO\" ;\n" +
-                        "SET time_zone = \"+00:00\";\n"+
+        start_headers = "/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\n" +
+"/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;\n" +
+"/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;\n" +
+"/*!40101 SET NAMES utf8 */;\n" +
+"/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n" +
+"/*!40103 SET TIME_ZONE='+00:00' */;\n" +
+"/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n" +
+"/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n" +
+"/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n" +
+"/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;"+
                 "--   ------------------------------------------------------------------------------------------------------------------ \n";
         
          String primary_tables=start_headers;
@@ -194,8 +202,10 @@ public abstract class Get_backup extends Thread{
                 }
                 if (records_table.length()!=0)
                 {
+                    cash+="LOCK TABLES "+table_name+" WRITE;\n";
                     cash+="insert into "+table_name+" values \n";
                     cash+=records_table;
+                    cash+="UNLOCK TABLES;\n";
                 }
                 if (flag_pre_fore==true)
                 {

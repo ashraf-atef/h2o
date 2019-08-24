@@ -34,3 +34,6 @@ https://stackoverflow.com/questions/1263680/maximum-execution-time-in-phpmyadmin
 
 MySQL Server has gone away when importing large sql file
 https://stackoverflow.com/questions/12425287/mysql-server-has-gone-away-when-importing-large-sql-file
+
+Xampp 32 bit
+https://stackoverflow.com/questions/55176652/cant-find-xampp-setup-for-windows-32-bit-php-7-3-2

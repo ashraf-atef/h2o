@@ -37,3 +37,7 @@ https://stackoverflow.com/questions/12425287/mysql-server-has-gone-away-when-imp
 
 Xampp 32 bit
 https://stackoverflow.com/questions/55176652/cant-find-xampp-setup-for-windows-32-bit-php-7-3-2
+
+
+**************************************** Split countries instructions h2o *************************************************
+https://docs.google.com/document/d/1Wlu6Fym-xM80JMY1BOqcrAH0xfNj964dP7-BXA1W7M8/edit

@@ -41,3 +41,6 @@ https://stackoverflow.com/questions/55176652/cant-find-xampp-setup-for-windows-3
 
 **************************************** Split countries instructions h2o *************************************************
 https://docs.google.com/document/d/1Wlu6Fym-xM80JMY1BOqcrAH0xfNj964dP7-BXA1W7M8/edit
+
+**************************************** Remove old records in h2o database ***********************************************
+https://docs.google.com/document/d/1i_nr9i0bjnFlz-qz7iIlFpE1GLHpGCM2O-g5HXxnY8E

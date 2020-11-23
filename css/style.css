@@ -15,9 +15,9 @@
  #666 gray
 */
 
-.navbar-default .navbar-nav>.active>a:focus , 
- .navbar-default .navbar-nav>li>a:focus  ,   
- nav ul li a:focus 
+.navbar-default .navbar-nav>.active>a:focus ,
+ .navbar-default .navbar-nav>li>a:focus  ,
+ nav ul li a:focus
  {
    color: #666 ;
 
@@ -34,15 +34,15 @@ border-top: solid 3px #0088CC ;
 padding-top: 57px;
 
 }
- 
- .navbar-default .navbar-nav>.active>a:hover , 
- .navbar-default .navbar-nav>li>a:hover ,  
+
+ .navbar-default .navbar-nav>.active>a:hover ,
+ .navbar-default .navbar-nav>li>a:hover ,
  .btn-default ,
  .btn-default:hover  ,
  nav ul li a:hover
 
 {
-background-color:  #0088CC ; 
+background-color:  #0088CC ;
 color:  #FFF;
 }
 
@@ -61,7 +61,7 @@ color:  #FFF;
  .navbar-default .navbar-form
 {
  color: #666 ;
- padding-top: 50px 
+ padding-top: 50px
 }
 
 .navbar-nav>li>.dropdown-menu
@@ -70,7 +70,7 @@ color:  #FFF;
     width: 450px ;
 }
 
-.navbar-default .dropdown-menu>li>a  
+.navbar-default .dropdown-menu>li>a
 {
     border-bottom: solid 1px #CCC ;
     height: 80px ;
@@ -80,7 +80,7 @@ color:  #FFF;
 }
 .navbar-default .dropdown-menu>li>a:hover
 {
- background-color: #F8F8F8;  
+ background-color: #F8F8F8;
 }
 
 .navbar-default .dropdown-menu li a img
@@ -89,9 +89,9 @@ color:  #FFF;
   height: 60px ;
   margin-left: 5px ;
   border: solid 1px #333 ;
-  
+
 }
-.navbar-default .dropdown-menu>li a h4 
+.navbar-default .dropdown-menu>li a h4
 
 {
   color: #0088CC ;
@@ -117,14 +117,14 @@ font-size: 13px ;
   color: #777 ;
 }
  .navbar-default .navbar-nav>li>a>img
- 
+
  {
 margin-top: -15px ;
  }
 
 /*brand name */
 
-    
+
 
 
 .navbar-default .navbar-brand img {
@@ -141,7 +141,7 @@ margin-top: -15px ;
 }
 
 .navbar-default .navbar-toggle {
-  
+
     margin-top: 60px ;
 }
 /*.navbar-default .navbar-toggle .icon-bar {
@@ -149,7 +149,7 @@ margin-top: -15px ;
 }
 */
 
-nav.shrink a.dropdown-link 
+nav.shrink a.dropdown-link
 {
     border-bottom: solid 1px #CCC ;
     height: 80px ;
@@ -168,12 +168,12 @@ nav.shrink .navbar-nav>li>a
 }
 nav.shrink a.link {
   padding-top: 40px !important;
- 
+
   font-size: 16px;
 }
 nav.shrink  a.active {
   padding-top: 37px !important;
- 
+
   font-size: 16px;
 }
 
@@ -182,7 +182,7 @@ nav.shrink .navbar-brand {
   font-size: 25px;
 }
 nav.shrink .navbar-form {
-padding-top: 15px 
+padding-top: 15px
 }
 nav.shrink .navbar-brand img {
  height: 55px ;
@@ -322,7 +322,7 @@ width: 100% ;
     -moz-transform:scale(1.1,1.1)  rotate(360deg) ;
     -o-transform:scale(1.1,1.1)  rotate(360deg);
     transform:scale(1.1,1.1)  rotate(360deg);
-   
+
 }
 
 .logo p
@@ -331,18 +331,18 @@ width: 100% ;
     -moz-transition-duration:0.7s ;
     -o-transition-duration:0.7s ;
     transition-duration:0.7s ;
-  
+
     padding-top: 100px ;
-     
+
     text-align: center;
     font-size:100px ;
-   
+
    color: #0174CF  ;
 }
 
 .logo span
 {
-    padding-top: 100px ;  
+    padding-top: 100px ;
     text-align: center;
     font-size: 50px ;
    color: #333  ;
@@ -354,22 +354,22 @@ width: 100% ;
 .testimonis
 {
     margin-top: 50px ;
-   
+
  font-family: "hacen" ,Verdana, Tahoma;
 
 }
 .testimonis h1
 {
-    font-weight: 12px; 
+    font-weight: 12px;
     margin-bottom: 20p ;
      color: #0174CF ;
 
-     
+
 }
 .testimonis .lead
 {
     line-height: 2em ;
-     
+
 }
 .testimonis span
 {
@@ -377,14 +377,14 @@ width: 100% ;
     font-weight: bold ;
     color: #333 ;
  font-family: "hacen" ,Verdana, Tahoma;
-   
+
 }
 
 .testimonis .carousel-inner
 {
     min-height: 160px ;
 }
-.testimonis .carousel-indicators 
+.testimonis .carousel-indicators
 {
     position: static;
     width: 100% ;
@@ -430,11 +430,11 @@ opacity: 1 ;
 .contact_us
 {
    background:url('../images/water-and-h2o.jpg') no-repeat center fixed ;
-     
+
     width: 100% ;
     height:200px ;
     margin-bottom: 50px ;
-   
+
 }
 
 .over_contact_us
@@ -457,12 +457,12 @@ opacity: 1 ;
 /************************************** screens of program **********************************************************/
 .screens
 {
-  
+
   padding-top: 50px ;
   text-align: center;
   padding-bottom: 50px ;
 background-color: #FFF ;
-  
+
 
 }
 
@@ -473,7 +473,7 @@ max-height: 550px ;
 border: 1px solid #666 ;
 }
 
-.screens  h4 
+.screens  h4
 {
  font-family: "hacen" ,Verdana, Tahoma;
    color: #333 ;
@@ -485,13 +485,13 @@ border: 1px solid #666 ;
 .screens p
 {
   text-align: right;
- 
+
   font-family: "hacen" ,Verdana, Tahoma;
    direction: rtl;
 }
 
 
-.screens hr { 
+.screens hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -500,12 +500,12 @@ border: 1px solid #666 ;
     border-style: inset;
     border-width: 1px;
     color: #0088CC ;
-  
 
-} 
+
+}
 .screens .feat_photo
 {
-  
+
   padding-top: 50px ;
 }
 .screens .feat
@@ -520,7 +520,7 @@ border: 1px solid #666 ;
 @media (max-width: 1200px) {
 .screens
 {
-  
+
   padding-top: 50px ;
   text-align: center;
   padding-bottom: 50px ;
@@ -537,7 +537,7 @@ border: 1px solid #666 ;
 @media (max-width: 1000px) {
 .screens
 {
-  
+
   padding-top: 50px ;
   text-align: center;
   padding-bottom: 50px ;
@@ -553,7 +553,7 @@ border: 1px solid #666 ;
 @media (max-width: 700px) {
 .screens
 {
-  
+
   padding-top: 50px ;
   text-align: center;
   padding-bottom: 50px ;
@@ -566,7 +566,7 @@ border: 1px solid #666 ;
 @media (max-width: 500px) {
 .screens
 {
-  
+
   padding-top: 50px ;
   text-align: center;
   padding-bottom: 50px ;
@@ -589,7 +589,7 @@ border: 1px solid #666 ;
 
 .pricing_table
 {
-  
+
 margin-bottom: 150px ;
 
 
@@ -646,8 +646,8 @@ line-height: 52px;
 
 .whole{
     display: inline-block;
-    margin: 10px ; 
-    
+    margin: 10px ;
+
 }
 
 
@@ -658,12 +658,21 @@ line-height: 52px;
     background-color: #eac80d;
     height: 62px;
     border-bottom: 3px solid #bfa30c;
-   
+    font-size: 10px;
 }
-.new
+.plan_quota {
+ background-color: #09b500 ;
+ border-bottom: 3px solid #099101;
+}
+.standard_quota
 {
   background-color: #0088CC ;
    border-bottom: 3px solid #036190;
+}
+.ultimate_quota
+{
+  background-color: #c70202 ;
+   border-bottom: 3px solid #910101;
 }
 .type p{
     font-family: "hacen" ,Verdana, Tahoma;
@@ -675,7 +684,7 @@ line-height: 52px;
     padding-top: 10px;
 
 
-    
+
 
 }
 
@@ -719,7 +728,7 @@ line-height: 52px;
 .header span{
     font-size: 25px;
 
-    
+
 }
 
 .month{
@@ -734,11 +743,11 @@ line-height: 52px;
 }
 
 .cart{
-  
+
   color:white;
   position: relative;
   top: 16px;
-  
+
 }
 
 
@@ -778,7 +787,7 @@ line-height: 52px;
   color: #AAA ;
   padding-top: 20px ;
   padding-bottom: 20px ;
- 
+
   font-family: Verdana, Tahoma;
 }
 
@@ -786,7 +795,7 @@ line-height: 52px;
 {
   float: right;
   direction: rtl ;
- 
+
 }
 
 .footer a
@@ -796,7 +805,7 @@ line-height: 52px;
 .footer a:hover
 {
   color: #FFF ;
-   text-decoration:none;  
+   text-decoration:none;
 }
 .footer h3
 {
@@ -810,7 +819,7 @@ line-height: 52px;
 
 }
 
-.footer .three-columns li 
+.footer .three-columns li
 {
   width: 33.3333% ;
   float: right;
@@ -824,7 +833,7 @@ overflow: hidden ;
 margin: 20px 0 20px ;
 
 }
-.footer .soical-list li  
+.footer .soical-list li
 {
   float: right;
   margin-right: 8px ;
@@ -836,7 +845,7 @@ margin: 20px 0 20px ;
   height: 48px ;
 
 }
-.footer .soical-list .facebook 
+.footer .soical-list .facebook
 {
   background: url('../images/facebook_online_social_media-48.png')  no-repeat;
 }
@@ -844,7 +853,7 @@ margin: 20px 0 20px ;
 {
   background: url('../images/facebook_online_social_media-48 (1).png')  no-repeat;
 }
-.footer .soical-list .youtube 
+.footer .soical-list .youtube
 {
   background: url('../images/youtube_online_social_media-48.png')  no-repeat;
 }
@@ -852,7 +861,7 @@ margin: 20px 0 20px ;
 {
   background: url('../images/youtube_online_social_media-48 (1).png')  no-repeat;
 }
-.footer .soical-list .twitter 
+.footer .soical-list .twitter
 {
   background: url('../images/online_social_media_twitter-48.png')  no-repeat;
 }
@@ -901,9 +910,9 @@ margin: 20px 0 20px ;
 
 
 .navbar-default .navbar-nav>li>a ,
-nav ul li a 
+nav ul li a
 {
-    
+
     padding-top: 25px ;
     font-size: 12px;
     font-style: normal;
@@ -923,7 +932,7 @@ nav ul li a
  .navbar-default .navbar-nav>.active>a ,
  .navbar-default .navbar-nav>li>.active ,
  .navbar-default .navbar-nav>li>a.active ,
- a.active 
+ a.active
 {
 
 padding-top: 22px;
@@ -955,7 +964,7 @@ nav.shrink a.link {
 }
 nav.shrink a.active {
   padding-top: 22px !important;
- 
+
   font-size: 12px;
 }
 
@@ -998,8 +1007,8 @@ background-color: #F8F8F8 ;
 
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
- background-color: #F8F8F8; 
-  
+ background-color: #F8F8F8;
+
 }
 
 

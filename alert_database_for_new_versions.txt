@@ -1,0 +1,12 @@
+V(3.5.2)
+تعديل قاعد البيانات
+ALTER TABLE `information_hr` ADD `sort_statement` VARCHAR(300) NOT NULL AFTER `archive_siana_gdeda_value`;
+
+الترتيب بكود العميل
+ORDER by cs.id_client ASC
+
+الترتيب بالمحافظة ثم المركز عند تساوي المحافظة ثم بكود العميل عند تساوي المركز 
+ORDER by co.country ASC, cs.region ASC, cs.id_client ASC
+
+
+-------------------------------

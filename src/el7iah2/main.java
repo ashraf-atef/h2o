@@ -4338,6 +4338,7 @@ void add_hr_panels()
 
     jTextField_home_num.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
     jTextField_home_num.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+    jTextField_home_num.setText("0");
     jTextField_home_num.setBorder(javax.swing.BorderFactory.createEtchedBorder(null, new java.awt.Color(234, 183, 55)));
     jTextField_home_num.setCaretColor(new java.awt.Color(234, 183, 55));
     jTextField_home_num.setDisabledTextColor(new java.awt.Color(234, 183, 55));
@@ -7706,7 +7707,7 @@ jTable_trkeb_archive_done.setName("سجل الخطه للصيانات الجدي
                            
                             +" left outer join archive ar2 on ar2.serial=cs.serial and ar2.id_archive="+elsiana.archive_value+"  and ar2.id in "
                             + "( select max(id) from archive arr2  where arr2.serial= cs.serial and arr2.id_archive="+elsiana.archive_value+"   and arr2.date <'" + s_e_m[0] + "' )"
-                            
+                            + archive.SORT_STATEMENT
                                 
                               );
            

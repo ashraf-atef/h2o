@@ -53,7 +53,7 @@ public abstract class Get_backup extends Thread{
            
             stmt=h.m.ob.conn.createStatement();
             ResultSet rs=stmt.executeQuery("select date_backup , gmail_account , password_gmail_account , enable , enable_insert , enable_num_el23tal_in_detect_class , "
-                    +" archive_siana_value , archive_el3otl_value , archive_el2st_value , archive_trkeb_value , archive_siana_gdeda_value "
+                    +" archive_siana_value , archive_el3otl_value , archive_el2st_value , archive_trkeb_value , archive_siana_gdeda_value , sort_statement"
                     + "  from information_hr");
             if (rs.next())
             {
@@ -64,6 +64,7 @@ public abstract class Get_backup extends Thread{
             archive.archive_el2st=rs.getInt(9);
             archive.archive_trkeb=rs.getInt(10);
             archive.archive_siana_gdeda=rs.getInt(11);
+            archive.SORT_STATEMENT = rs.getString(12);
                
                     if (time_now.equals(rs.getString(1))||h.m.ob.time_compare(rs.getString(1),time_now ))
                     {

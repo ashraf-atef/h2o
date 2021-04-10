@@ -103,7 +103,7 @@ public class action_panel_elsiiana {
                             + " or date3 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "'"
                             + " or date5 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "'"
                             + " or date6 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "'"
-                            + " or date7 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "' ) and class <>'" + class_0 + "' order by cs.serial asc");
+                            + " or date7 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "' ) and class <>'" + class_0 + "' "+archive.SORT_STATEMENT);
                     System.out.println("select * from clients_product cs left outer join clients c on cs.id_client=c.id_client left"
                             + " outer join product p on p.id_product=cs.id_product left outer join countries co on co.region=cs.region left outer "
                             + "join wrongs w on w.serial=cs.serial "
@@ -124,7 +124,7 @@ public class action_panel_elsiiana {
                             + " or date3 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "'"
                             + " or date5 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "'"
                             + " or date6 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "'"
-                            + " or date7 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "' ) and class <>'" + class_0 + "'");
+                            + " or date7 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "' ) and class <>'" + class_0 + "' "+archive.SORT_STATEMENT);
 //                        System.out.println("select* from clients_product where date1 "
 //                                + "between '" + month_year_day_start + "' and '" + month_year_day_end + "'"
 //                                + " or date2_3 " + "between '" + month_year_day_start + "' and '" + month_year_day_end + "'"
@@ -152,7 +152,7 @@ public class action_panel_elsiiana {
                             +" left outer join archive ar2 on ar2.serial=cs.serial and ar2.id_archive="+archive_value+" and ar2.id in "
                             + "( select max(id) from archive arr2  where arr2.serial= cs.serial and arr2.id_archive="+archive_value+"   and arr2.date <'" + s_e_m[0] + "' )"
                                     
-                            + " where date_el2st between '" + month_year_day_start + "' and '" + month_year_day_end + "'");
+                            + " where date_el2st between '" + month_year_day_start + "' and '" + month_year_day_end + "' "+archive.SORT_STATEMENT);
 
                     m.add_siana_el2st(rs, month_year_day_end, "price");
 
@@ -1950,12 +1950,13 @@ public class action_panel_elsiiana {
                         ((JTextField) m.jTextField_real_date_siana1.getDateEditor().getUiComponent()).setText("");
                         m.jTextField_real_date_siana1.setBackground(Color.white);
                         JOptionPane.showMessageDialog(null, "عمليه ناجحه");
-                        m.model_siana.removeRow(x);
-                        for (int t = 0; t < m.model_siana_help.getRowCount(); t++) {
-                            if (serial.equals((String) m.model_siana_help.getValueAt(t, 43))) {
-                                m.model_siana_help.removeRow(t);
-                            }
-                        }
+                        // Remove row
+//                        m.model_siana.removeRow(x);
+//                        for (int t = 0; t < m.model_siana_help.getRowCount(); t++) {
+//                            if (serial.equals((String) m.model_siana_help.getValueAt(t, 43))) {
+//                                m.model_siana_help.removeRow(t);
+//                            }
+//                        }
                     } catch (SQLException ex) {
                         JOptionPane.showMessageDialog(null, "عفوا تم تسجيل دفع في ذلك اليوم من قبل لذلك العميل");
                         Logger.getLogger(main.class.getName()).log(Level.SEVERE, null, ex);

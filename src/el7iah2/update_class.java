@@ -696,6 +696,7 @@ public class update_class {
          hm_countries.put("table_archive","جدول سجل الخطة");
           hm_countries.put("table_archive_trkeb","جدول سجل الخطة للتركيبات");
            hm_countries.put("table_archive_siana_gdeda","جدول سجل الخطة للصيانات الجديده");
+           hm_countries.put("sort_statement", "ترتيب العملاء بالجدول");
 
     }
 

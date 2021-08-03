@@ -152,9 +152,9 @@ public class login_function {
 
     void conn() throws ClassNotFoundException, SQLException {
         String unicode = "?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&sslmode=require";
-         final String DB_URL = "jdbc:postgresql://"+"ec2-23-23-228-115.compute-1.amazonaws.com"+":"+"5432"+"/dfhmm9tjtoh06o";
+         final String DB_URL = "jdbc:postgresql://"+"ec2-3-218-149-60.compute-1.amazonaws.com"+":"+"5432"+"/dc5h9bdoplbor3";
         Class.forName("org.postgresql.Driver");
-        conn = DriverManager.getConnection(DB_URL + unicode, "mvqbslwdbakwcw", "bd593b8ba7e11af76f1d1fa50199a5aeaf0a8990bfa20b667bec26e7f6d59c73");
+        conn = DriverManager.getConnection(DB_URL + unicode, "cgsjgpzrrzcvwp", "c514841591878a96f8c23108195c78943f1a77ad92accf8aefcace490070572b");
         stmt = conn.createStatement();
         System.out.println("Connecting to database...");
     }

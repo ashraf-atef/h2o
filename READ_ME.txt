@@ -19,3 +19,8 @@ https://docs.google.com/document/d/1Wlu6Fym-xM80JMY1BOqcrAH0xfNj964dP7-BXA1W7M8/
 
 **************************************** Remove old records in h2o database ***********************************************
 https://docs.google.com/document/d/1i_nr9i0bjnFlz-qz7iIlFpE1GLHpGCM2O-g5HXxnY8E
+
+
+**************************************** mysql shutdown unexpectedly ******************************************************
+https://stackoverflow.com/questions/18022809/xampp-mysql-shutdown-unexpectedly
+https://stackoverflow.com/questions/38759870/xampp-mysql-table-doesnt-exist-in-engine-1932/44799226
